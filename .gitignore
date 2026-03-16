@@ -1,58 +1,140 @@
-# Miscellaneous
-*.class
-*.log
-*.pyc
-*.swp
-.DS_Store
-.atom/
+# Flutter / Dart
+.dart_tool/
 .build/
-.buildlog/
-.history
-.svn/
-.swiftpm/
-migrate_working_dir/
+.packages
+.pub/
+.pub-cache/
+build/
+coverage/
+**/doc/api/
 
-# IntelliJ related
+# iOS
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework/
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Flutter/ephemeral/
+ios/Runner/GeneratedPluginRegistrant.*
+ios/ServiceDefinitions.json
+ios/Runner/GoogleService-Info.plist
+
+# Android
+android/.gradle/
+android/local.properties
+android/app/build/
+android/app/debug/
+android/app/profile/
+android/app/release/
+android/app/google-services.json
+
+# Generated files
+.flutter-plugins
+.flutter-plugins-dependencies
+flutter_export_environment.sh
+
+# IDE
 *.iml
 *.ipr
 *.iws
 .idea/
+.vscode/
 
-# The .vscode folder contains launch configuration and tasks you configure in
-# VS Code which you may wish to be included in version control, so this line
-# is commented out by default.
-#.vscode/
+# macOS
+.DS_Store
+*.xcworkspace
+*.xcuserstate
 
-# Flutter/Dart/Pub related
-**/doc/api/
-**/ios/Flutter/.last_build_id
+# General
+*.log
+*.lock
+*.tmp
+*.swp
+*.pyc
+
+# Optional Firebase local config (do not commit service account secrets)
+# Keep firebase.json in repo if you use Firebase Hosting / CLI config.
+# If you store local Firebase config in a separate file, ignore it here.
+# Example: .firebaserc.local
+
+# Local app-specific secrets
+lib/appid.txt
+
+# Flutter / Dart
 .dart_tool/
-.flutter-plugins-dependencies
-.pub-cache/
-.pub/
-/build/
-/coverage/
-
-# Symbolication related
-app.*.symbols
-
-# Obfuscation related
-app.*.map.json
-
-# Android Studio will place build artifacts here
-/android/app/debug
-/android/app/profile
-/android/app/release
-
-.dart_tool/
+.build/
 .packages
+.pub/
+.pub-cache/
 build/
-pubspec.lock
-android/.gradle/
+ios/Flutter/Flutter.framework/
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Flutter/ephemeral/
 ios/Pods/
 ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/ServiceDefinitions.json
+ios/Runner/GeneratedPluginRegistrant.*
+android/.gradle/
+android/.idea/
+android/*/build/
+android/app/build/
+**/android/app/debug
+**/android/app/profile
+**/android/app/release
+.gradle/
+flutter_export_environment.sh
+*.flutter-plugins
+*.flutter-plugins-dependencies
+**/doc/api/
+pubspec.lock
+coverage/
 *.log
 *.lock
 
+# Secrets / generated config
 android/app/google-services.json
 ios/Runner/GoogleService-Info.plist
+lib/appid.txt
+firebase.json
+
+# IDE files
+*.iml
+*.ipr
+*.iws
+.idea/
+.vscode/
+*.keystore
+*.jks
+
+# macOS
+.DS_Store
+*.xcworkspace
+*.xcuserstate
+*.xcuserdatad
+DerivedData/
+*.hmap
+*.ipa
+*.dSYM
+
+# Linux/Windows
+*.asv
+*.o
+*.obj
+*.so
+*.exe
+*.dll
+*.pdb
+*.tmp
+*.cache
+*.temp
+*.db
+*.pyc
+*.pyo
+*.swp
+
+# Optional: ignore local SDK settings
+android/local.properties
+ios/Flutter/Flutter.podspec
