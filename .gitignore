@@ -62,7 +62,8 @@ lib/appid.txt
 
 # Flutter / Dart
 .dart_tool/
-.build/
+.build/*
+!build/web
 .packages
 .pub/
 .pub-cache/
