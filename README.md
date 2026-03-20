@@ -18,6 +18,8 @@ It connects **Citizens, Issuers, Employers, and Administrators** into a unified 
 ### 🔗 Web Application  
 👉 **[Launch UniCred](https://unicredukm.netlify.app)**
 
+If this takes time to load try refreshing(f5) or Check your internet connection
+
 ---
 
 # 🔐 Demo Login Credentials
